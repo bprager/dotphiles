@@ -29,4 +29,7 @@ if has("user_commands")
 endif
 
 " Customize to your needs...
-
+set mouse=
+syntax enable
+set background=dark
+colorscheme solarized
