@@ -19,7 +19,6 @@ if has("user_commands")
   call vundle#rc()
 
   Bundle 'altercation/vim-colors-solarized'
-  Bundle 'bling/vim-airline'
 
   filetype plugin indent on  " required!"
   let g:airline_powerline_fonts = 1
@@ -33,4 +32,7 @@ if has("user_commands")
 endif
 
 " Customize to your needs...
-
+set mouse=
+syntax enable
+set background=dark
+colorscheme solarized
