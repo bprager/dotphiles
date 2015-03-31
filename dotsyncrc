@@ -80,6 +80,7 @@ wget/wgetrc
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
 C02MQ2JAFD56                    git=ANY                                                #git repo, pull from anywhere
+NY01-9G7NJ12                    git=ANY                                                #git repo, pull from anywhere
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere
