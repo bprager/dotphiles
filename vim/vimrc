@@ -12,6 +12,8 @@ source ~/.vim/dotvim.vim
 
 if has("user_commands")
   set nocompatible
+  set syntax=on
+  set background=dark
   filetype off
   set rtp+=~/.vim/bundle/vundle/
   call vundle#rc()
@@ -19,6 +21,7 @@ if has("user_commands")
   Bundle 'altercation/vim-colors-solarized'
 
   filetype plugin indent on  " required!"
+  let g:airline_powerline_fonts = 1
   let g:vundles=['general', 'git', 'hg', 'programming', 'completion', 'java', 'cpp', 'ruby', 'python', 'misc']
   "let g:vundles=['general', 'programming']
   let g:neocomplcache_enable_at_startup = 1
