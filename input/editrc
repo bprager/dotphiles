@@ -7,7 +7,7 @@
 #   Ben O'Hara <bohara@gmail.com>
 #
 
-bind -v
-bind "^R" em-inc-search-prev
-bind \\t rl_complete
+ bind -v
+ bind "^R" em-inc-search-prev
+ bind \\t rl_complete
 

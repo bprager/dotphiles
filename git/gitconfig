@@ -76,7 +76,7 @@
 
     # checkout/fetch/merge/push/rebase
     # checkout
-    co  = checkout
+	co = checkout
     co0 = checkout HEAD --
     # fetch
     f   = fetch
@@ -139,6 +139,11 @@
     rea = remote add
     rex = remote rm
     rem = remote rename
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
 
 [push]
     default = matching

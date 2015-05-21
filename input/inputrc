@@ -9,6 +9,9 @@
 
 $include /etc/inputrc
 
+set editing-mode vi
+"\C-x\C-r": re-read-init-file
+
 # Set things up for python shell
 set editing-mode vi
 
@@ -43,6 +46,12 @@ $if mode=vi
 $endif
 
 $if Bash
+    "\e[7~":beginning-of-line # Home Key
+    "\e[8~":end-of-line # End Key
+    "\e[3~":delete-char # Delete Key
+    "\e[2~":paste-from-clipboard # Insert Key
+    "\e[1;5C": forward-word   # ctrl + right
+    "\e[1;5D": backward-word  # ctrl + left
 $endif
 
 $if Python
