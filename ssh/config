@@ -27,4 +27,7 @@ Host *
     #ControlMaster auto
     #ControlPath ~/.ssh/master/%r@%h:%p
     #ControlPersist 8h
-
+Host home
+    HostName prager.homeip.net
+    User bernd
+    IdentityFile ~/.ssh/bernd_rsa
